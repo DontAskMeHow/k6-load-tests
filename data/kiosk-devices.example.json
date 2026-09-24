@@ -1,0 +1,230 @@
+[
+  {
+    "name": "DEV-N-TEST-0001",
+    "serialNumber": "DEV-N-TEST-0001",
+    "pin": 1234,
+    "version": "0.27.4",
+    "hardwareVersion": "0.4.2",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "paymentTemplate": {
+      "delta": 10000,
+      "paymentTypeId": 3,
+      "cardTransactionDetails": null,
+      "sbpTransactionDetails": null
+    },
+    "purchaseTemplate": {
+      "orderTotal": 10000,
+      "paidByPA": 0,
+      "paidByCash": 0,
+      "paidByCard": 10000,
+      "paidBySBP": 0,
+      "stockedItemsL": 1,
+      "stockedItemsR": 0,
+      "cassettesToDrop": [
+        {
+          "cassette": {
+            "id": 1001,
+            "slotSerialNumber": "TEST-SLOT-0001",
+            "slotFloor": 11,
+            "cellToStock": 0
+          },
+          "cellToDrop": 1,
+          "cellToStock": 0,
+          "scannedDms": [
+          ],
+          "soldDms": [
+          ],
+          "stockedDms": [],
+          "price": 10000
+        }
+      ]
+    },
+    "receiptTemplate": {
+      "userEmail": null,
+      "userPhoneNumber": null
+    },
+    "timeouts": {
+      "catalogMinSeconds": 1,
+      "catalogMaxSeconds": 2,
+      "afterPaymentMinSeconds": 1,
+      "afterPaymentMaxSeconds": 2,
+      "afterPurchaseMinSeconds": 1,
+      "afterPurchaseMaxSeconds": 2,
+      "beforeDisconnectMinSeconds": 1,
+      "beforeDisconnectMaxSeconds": 3
+    }
+  },
+  {
+    "name": "DEV-N-TEST-0002",
+    "serialNumber": "DEV-N-TEST-0002",
+    "pin": 1234,
+    "version": "0.27.4",
+    "hardwareVersion": "0.4.2",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "paymentTemplate": {
+      "delta": 10000,
+      "paymentTypeId": 3,
+      "cardTransactionDetails": null,
+      "sbpTransactionDetails": null
+    },
+    "purchaseTemplate": {
+      "orderTotal": 10000,
+      "paidByPA": 0,
+      "paidByCash": 0,
+      "paidByCard": 10000,
+      "paidBySBP": 0,
+      "stockedItemsL": 1,
+      "stockedItemsR": 0,
+      "cassettesToDrop": [
+        {
+          "cassette": {
+            "id": 1002,
+            "slotSerialNumber": "TEST-SLOT-0002",
+            "slotFloor": 11,
+            "cellToStock": 0
+          },
+          "cellToDrop": 1,
+          "cellToStock": 0,
+          "scannedDms": [
+          ],
+          "soldDms": [
+          ],
+          "stockedDms": [],
+          "price": 10000
+        }
+      ]
+    },
+    "receiptTemplate": {
+      "userEmail": null,
+      "userPhoneNumber": null
+    },
+    "timeouts": {
+      "catalogMinSeconds": 1,
+      "catalogMaxSeconds": 2,
+      "afterPaymentMinSeconds": 1,
+      "afterPaymentMaxSeconds": 2,
+      "afterPurchaseMinSeconds": 1,
+      "afterPurchaseMaxSeconds": 2,
+      "beforeDisconnectMinSeconds": 1,
+      "beforeDisconnectMaxSeconds": 3
+    }
+  },
+  {
+    "name": "DEV-N-TEST-0003",
+    "serialNumber": "DEV-N-TEST-0003",
+    "pin": 1234,
+    "version": "0.27.4",
+    "hardwareVersion": "0.4.2",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "paymentTemplate": {
+      "delta": 10000,
+      "paymentTypeId": 3,
+      "cardTransactionDetails": null,
+      "sbpTransactionDetails": null
+    },
+    "purchaseTemplate": {
+      "orderTotal": 10000,
+      "paidByPA": 0,
+      "paidByCash": 0,
+      "paidByCard": 10000,
+      "paidBySBP": 0,
+      "stockedItemsL": 1,
+      "stockedItemsR": 0,
+      "cassettesToDrop": [
+        {
+          "cassette": {
+            "id": 1003,
+            "slotSerialNumber": "TEST-SLOT-0003",
+            "slotFloor": 11,
+            "cellToStock": 0
+          },
+          "cellToDrop": 1,
+          "cellToStock": 0,
+          "scannedDms": [
+          ],
+          "soldDms": [
+          ],
+          "stockedDms": [],
+          "price": 10000
+        }
+      ]
+    },
+    "receiptTemplate": {
+      "userEmail": null,
+      "userPhoneNumber": null
+    },
+    "timeouts": {
+      "catalogMinSeconds": 1,
+      "catalogMaxSeconds": 2,
+      "afterPaymentMinSeconds": 1,
+      "afterPaymentMaxSeconds": 2,
+      "afterPurchaseMinSeconds": 1,
+      "afterPurchaseMaxSeconds": 2,
+      "beforeDisconnectMinSeconds": 1,
+      "beforeDisconnectMaxSeconds": 3
+    }
+  },
+  {
+    "name": "DEV-N-TEST-0004",
+    "serialNumber": "DEV-N-TEST-0004",
+    "pin": 1234,
+    "version": "0.27.4",
+    "hardwareVersion": "0.4.2",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "paymentTemplate": {
+      "delta": 10000,
+      "paymentTypeId": 3,
+      "cardTransactionDetails": null,
+      "sbpTransactionDetails": null
+    },
+    "purchaseTemplate": {
+      "orderTotal": 10000,
+      "paidByPA": 0,
+      "paidByCash": 0,
+      "paidByCard": 10000,
+      "paidBySBP": 0,
+      "stockedItemsL": 1,
+      "stockedItemsR": 0,
+      "cassettesToDrop": [
+        {
+          "cassette": {
+            "id": 1004,
+            "slotSerialNumber": "TEST-SLOT-0004",
+            "slotFloor": 11,
+            "cellToStock": 0
+          },
+          "cellToDrop": 1,
+          "cellToStock": 0,
+          "scannedDms": [
+          ],
+          "soldDms": [
+          ],
+          "stockedDms": [],
+          "price": 10000
+        }
+      ]
+    },
+    "receiptTemplate": {
+      "userEmail": null,
+      "userPhoneNumber": null
+    },
+    "timeouts": {
+      "catalogMinSeconds": 1,
+      "catalogMaxSeconds": 2,
+      "afterPaymentMinSeconds": 1,
+      "afterPaymentMaxSeconds": 2,
+      "afterPurchaseMinSeconds": 1,
+      "afterPurchaseMaxSeconds": 2,
+      "beforeDisconnectMinSeconds": 1,
+      "beforeDisconnectMaxSeconds": 3
+    }
+  }
+]

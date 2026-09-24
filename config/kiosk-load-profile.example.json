@@ -1,0 +1,13 @@
+{
+  "vus": 3,
+  "duration": "24m",
+  "timeCompression": 60,
+  "sessionsPerDay": 24.7,
+  "purchaseProbability": 0.77,
+  "secondBrowseProbability": 0.55,
+  "thirdBrowseProbability": 0.30,
+  "thresholds": {
+    "http_req_failed": ["rate<0.02"],
+    "http_req_duration": ["p(95)<1500", "p(99)<3000"]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "vus": 1,
+  "duration": "30m",
+  "timeCompression": 60,
+  "workCyclesPerDay": 60,
+  "serviceSettingsProbability": 0.1,
+  "workingDayOpenProbability": 0.15,
+  "visitProbability": 0.35,
+  "deviceConfigurationProbability": 0.4,
+  "displacementsProbability": 0.5,
+  "deviceContentsProbability": 0.3,
+  "displacementToDeviceFlowProbability": 0.25,
+  "productsRecalculationTasksProbability": 0.35,
+  "recalculationRequestDocumentProbability": 0.3,
+  "recalculationGenerateQrProbability": 0.2,
+  "recalculationConfirmProbability": 0.25,
+  "productsScanningProbability": 0.2,
+  "trueMarkValidateMinPerCycle": 5,
+  "trueMarkValidateMaxPerCycle": 20,
+  "workingDayCloseProbability": 0.02,
+  "thresholds": {
+    "http_req_failed": ["rate<0.03"],
+    "http_req_duration": ["p(95)<2000", "p(99)<4000"]
+  }
+}

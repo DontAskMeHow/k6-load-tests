@@ -1,0 +1,17 @@
+{
+  "duration": "30m",
+  "keepalive": {
+    "vus": 1,
+    "meProbability": 0.3
+  },
+  "lists": {
+    "vus": 1
+  },
+  "admin": {
+    "vus": 1
+  },
+  "thresholds": {
+    "http_req_failed": ["rate<0.03"],
+    "http_req_duration": ["p(95)<1500", "p(99)<3000"]
+  }
+}

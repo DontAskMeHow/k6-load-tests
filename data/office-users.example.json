@@ -1,0 +1,64 @@
+[
+  {
+    "userId": "office-user-001",
+    "login": "office-user@example.com",
+    "password": "test-password",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "timeouts": {
+      "betweenRequestsMinSeconds": 1,
+      "betweenRequestsMaxSeconds": 3,
+      "refreshMinSeconds": 20,
+      "refreshMaxSeconds": 40
+    },
+    "payloads": {
+      "devices": {
+        "page": 1,
+        "rows": 20,
+        "filterOptions": [],
+        "sortOptions": []
+      },
+      "orders": {
+        "page": 1,
+        "rows": 20,
+        "filterOptions": [],
+        "sortOptions": []
+      },
+      "payments": {
+        "page": 1,
+        "rows": 20,
+        "filterOptions": [],
+        "sortOptions": []
+      },
+      "apiCallHistory": {
+        "page": 1,
+        "rows": 20,
+        "filterOptions": [],
+        "sortOptions": []
+      },
+      "incidents": {
+        "page": 1,
+        "rows": 20,
+        "filterOptions": [],
+        "sortOptions": []
+      },
+      "employees": {
+        "page": 1,
+        "rows": 20,
+        "filterOptions": [],
+        "sortOptions": []
+      },
+      "employeeRoutes": {
+        "date": "2026-04-05T00:00:00Z",
+        "officeId": null
+      },
+      "initialInstallation": {
+        "page": 1,
+        "rows": 20,
+        "filterOptions": [],
+        "sortOptions": []
+      }
+    }
+  }
+]

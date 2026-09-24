@@ -1,0 +1,6 @@
+node_modules/
+results/
+*.log
+.env
+archive.tar
+.env

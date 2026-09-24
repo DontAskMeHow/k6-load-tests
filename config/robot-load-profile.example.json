@@ -1,0 +1,12 @@
+{
+  "vus": 1,
+  "duration": "24m",
+  "timeCompression": 60,
+  "planogramRequestsPerDay": 1.33,
+  "availablePlanogramsProbability": 0.5,
+  "hardwareRegisterProbability": 0.25,
+  "thresholds": {
+    "http_req_failed": ["rate<0.02"],
+    "http_req_duration": ["p(95)<1500", "p(99)<3000"]
+  }
+}

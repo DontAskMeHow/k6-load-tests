@@ -1,0 +1,28 @@
+[
+  {
+    "employeeId": "00000000-0000-4000-8000-000000000001",
+    "login": "00-0000001",
+    "password": "test-password",
+    "version": "2.18.0",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "trueMarkCodes": [
+      "0104601234567890215TESTCODE93TEST"
+    ],
+    "productsScanningStage": 4,
+    "productCodesByProductId": {
+      "1": [
+        "0104601234567890215TESTCODE93TEST"
+      ]
+    },
+    "timeouts": {
+      "afterAuthMinSeconds": 1,
+      "afterAuthMaxSeconds": 2,
+      "betweenCallsMinSeconds": 1,
+      "betweenCallsMaxSeconds": 3,
+      "betweenValidateMinSeconds": 0.2,
+      "betweenValidateMaxSeconds": 0.8
+    }
+  }
+]

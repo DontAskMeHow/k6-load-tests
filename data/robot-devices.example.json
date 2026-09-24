@@ -1,0 +1,25 @@
+[
+  {
+    "name": "DEV-N-TEST-0001",
+    "serialNumber": "DEV-N-TEST-0001",
+    "pin": "1234",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "modules": {
+      "nettopId": "BNTEST00000001",
+      "type": 1,
+      "modemId": "MODEM_TEST_0001",
+      "openVpnAddress": "192.168.100.15",
+      "boardId": "200000000001"
+    },
+    "timeouts": {
+      "afterPlanogramMinSeconds": 1,
+      "afterPlanogramMaxSeconds": 2,
+      "afterPlanogramListMinSeconds": 1,
+      "afterPlanogramListMaxSeconds": 2,
+      "afterRegisterMinSeconds": 1,
+      "afterRegisterMaxSeconds": 2
+    }
+  }
+]
